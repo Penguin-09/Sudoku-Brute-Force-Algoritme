@@ -86,8 +86,12 @@ function isValid(sudoku, currentIndex) {
 
 // === SOLVE THE SUDOKU ===
 async function solveSudoku(sudoku) {
+    document.getElementById("bottomElement").innerHTML = "Calculating...";
+
     if (await solveSudokuStep(sudoku)) {
         document.getElementById("bottomElement").innerHTML = "Solved!";
+        // Update progress bar
+        document.getElementById("progressBar").style.width = `100%`;
     } else {
         document.getElementById("bottomElement").innerHTML =
             "No solution found.";
@@ -108,14 +112,18 @@ async function solveSudokuStep(sudoku) {
     // Find the first empty cell
     for (let currentIndex = 0; currentIndex < sudoku.length; currentIndex++) {
         if (sudoku[currentIndex] == 0) {
-
             // Try to fill the cell with a number
             for (let currentNumber = 1; currentNumber <= 9; currentNumber++) {
+                // Update cell
                 document.getElementById(currentIndex).textContent =
                     currentNumber;
+                // Update progress bar
+                document.getElementById("progressBar").style.width = `${
+                    (currentIndex / 81) * 100
+                }%`;
                 sudoku[currentIndex] = currentNumber;
 
-                await sleep(10);
+                await sleep(1);
 
                 // Check if the number is valid
                 if (isValid(sudoku, currentIndex)) {
