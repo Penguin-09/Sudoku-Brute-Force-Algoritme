@@ -1,22 +1,23 @@
 
-# Sukodu Brute Force algorithm
+# Sukodu Brute Force algoritme
 
-This project is an algorithm designed to brute force Sudoku puzzles. It is primarily written in JavaScript, with a touch of HTML and CSS to visualize the algorithm in action. Additionally, the Bootstrap CSS framework is utilized for styling and layout enhancements.
+Dit project is een algoritme dat is ontworpen om Sudoku-puzzels met brute force op te lossen. Het is voornamelijk geschreven in JavaScript, met een beetje HTML en CSS om het algoritme in actie te visualiseren. Daarnaast wordt het Bootstrap CSS-framework gebruikt voor styling en lay-outverbeteringen.
 
-I created this project to challenge my problem-solving skills and to refresh my knowledge of JavaScript concepts I had previously learned.
+Ik heb dit project gemaakt om mijn probleemoplossend vermogen uit te dagen en om mijn kennis van JavaScript-concepten, die ik eerder had geleerd, op te frissen.
 
-## Acknowledgements
+## Erkenningen
 
-This isn't my first attempt at creating this algorithm. I previously worked on a very similar project in PHP alongside [Sven Hoeksema](https://github.com/Snevver). However, that project is still unfinished.
+Dit is niet mijn eerste poging om dit algoritme te maken. Eerder heb ik aan een zeer vergelijkbaar project gewerkt in PHP, samen met [Sven Hoeksema](https://github.com/Snevver). Dat project is echter nog steeds niet voltooid.
 
-I would also like to acknowledge [Alex Janse](https://github.com/alextjanse), who hosted a presentation explaining many of the complex elements involved in this algorithm. Additionally, Alex offered personal guidance and support to both Sven and me during our work.
+Ik wil ook graag [Alex Janse](https://github.com/alextjanse), bedanken, die een presentatie heeft gegeven waarin hij veel van de complexe elementen van dit algoritme heeft uitgelegd. Daarnaast bood Alex persoonlijke begeleiding en ondersteuning aan zowel Sven als mij tijdens ons werk.
+
 ## Links
 
-[My Website](https://vdburg.site/)
+[Mijn Website](https://vdburg.site/)
 
-[My github](https://github.com/Penguin-09)
+[Mijn github](https://github.com/Penguin-09)
 
-[My linkedin](https://www.linkedin.com/in/son-bram/)
+[Mijn linkedin](https://www.linkedin.com/in/son-bram/)
 
 
 
